@@ -11,22 +11,18 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "/index.html"
+      "source": "/",
+      "destination": "/index.html"
     },
     {
-      "src": "/components/(.*)",
-      "dest": "/components/$1"
+      "source": "/components/:path*",
+      "destination": "/components/:path*"
     },
     {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "status": 404,
-      "dest": "/components/home.html"
+      "source": "/:path*",
+      "destination": "/components/home.html"
     }
   ],
   "headers": [
