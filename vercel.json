@@ -36,7 +36,7 @@
       ]
     },
     {
-      "source": "/**/*.css",
+      "source": "/:path*.css",
       "headers": [
         {
           "key": "Cache-Control",
