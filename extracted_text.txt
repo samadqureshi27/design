@@ -1,0 +1,64 @@
+Automis AI Platform – UX Redesign Brief & Current UI Screens
+This document is for the UX/UI designer working on the Automis AI Platform. It explains what we are trying to achieve with the redesign and provides the current product screenshots 
+grouped by main sections of the app.
+1. Project Overview
+Automis is an AI-powered voice agent platform. Each client gets their own dashboard to manage AI call agents, monitor performance, and control call minutes. The current product is a basic MVP; the ma
+in goal of this project is to redesign the experience to be more modern, aligned with the marketing website, and future-proof for richer analytics and self-service features.
+Key flows today:
+- Log in / register into the platform.
+- See call statistics and 
+minute usage.
+- Manage AI agents (create, edit, test, delete).
+- View call logs and export them.
+- Manage account settings and phone number assignments.
+2. What We Are Trying to Achieve
+The client describes the current UI as "pretty basic" and wants the ap
+plication to feel more in line with their website style, with a more modern and futuristic look. Functionally, the platform should evolve into a control center where clients can see analytics, demographics, and detailed data for their AI agents, and take a
+ctions such as editing agents, listening to calls, and purchasing extra minutes, all from within the app.
+High-level objectives:
+1. Give users clear visibility and control over their AI agents.
+2. Provide rich analytics (call performance, trends, demograph
+ics) in a clean, modern UI.
+3. Make it easy to scale: more agent configuration options, recordings, billing and quota management.
+4. Visually communicate that this is an advanced, AI-driven, future-oriented platform.
+3. Desired Design Direction
+Visual Styl
+e:
+- Modern SaaS look, aligned with the Automis marketing website (colors, typography, tone).
+- Futuristic but professional: think subtle gradients, clean cards, strong hierarchy, and micro-interactions.
+- Clear use of white space and consistent components
+ (cards, tables, charts, filters).
+Experience & UX Goals:
+- A "mission control"-style dashboard with top-level KPIs, call volume charts, and demographics.
+- Easy drill-down from global metrics → agent-level analytics → individual call recordings.
+- Obvious
+ minute quota and billing status with an in-platform purchase flow for extra minutes.
+- Space for future features such as more advanced agent settings, sentiment analysis, and richer demographics.
+Future Dashboard Concept (for inspiration):
+- KPI row with 
+cards: Calls Today/This Week/This Month, Success Rate, Active Agents, Minutes Remaining.
+- Charts for call volume over time, outcome breakdown, and usage per agent.
+- Demographics visuals: map or charts for caller location, language, and time-of-day/weekda
+y patterns.
+- Recent calls widget with inline audio player and quick filters.
+- Clear Plan & Minutes card with a prominent "Buy more minutes" action.
+4. Login Screen
+This is the entry point to the platform. Users can toggle between Login and Register, en
+ter email and password, and choose the interface language from the dropdown in the top-right. In the redesigned version, this screen should visually match the website style while clearly communicating the product value and brand.
+5. Call Dashboard (Cur
+rent)
+This is the current Call Dashboard view. It shows high-level metrics like Calls Today, This Week, This Month, and Total, as well as Call Statistics and Minute Quota. The language selector is in the top-right. In the future design, this should evolve 
+into a richer, futuristic analytics dashboard with demographics, trends, and quick access to key actions.
+6. Info / Platform Overview
+This screen summarizes platform usage with cards for Active Agents, Phone Numbers, and Subscriptions, and includes a P
+hone Number Assignments section. In the redesign, this could either be merged into the main dashboard or refined as an "Account Overview" with more contextual insights.
+7. Call Logs & Usage Details
+This view focuses on more detailed call information. I
+t contains call statistics, usage data, filters for agents and phone numbers, export options (PDF/TXT), and a Call Logs table. In the new design, this section should integrate with the analytics and recording player, with stronger filtering and clearer vis
+ual separation of data.
+8. Manage Agents
+The Manage Agents screen lists each AI agent as a card with name, voice, status (Active/Inactive), and actions such as Edit, Test, and Delete. This is a core area for users. The redesign should make it easy to 
+see agent performance at a glance and to navigate into a detailed Agent view for configuration and analytics.
+9. Settings & Profile
+The Settings page allows users to update profile information (username, company name) and manage phone number assignment
+s. In future iterations, this section will likely hold account, billing, notification, and localization settings, so it should be designed with scalability in mind.
